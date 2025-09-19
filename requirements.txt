@@ -7,3 +7,7 @@ lifetimes
 streamlit
 fastapi
 uvicorn
+
+fastapi
+uvicorn
+python-multipart
