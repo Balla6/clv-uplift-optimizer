@@ -1,0 +1,12 @@
+{
+  "channel": "email",
+  "margin_rate": 0.3,
+  "unit_cost": 0.05,
+  "best_n": 15855,
+  "best_profit": 2264.62,
+  "share_of_population": 99.09,
+  "artifacts": {
+    "curve": "C:\\Users\\balla\\Downloads\\clv-uplift-optimizer-starter\\clv-uplift-optimizer\\data\\processed\\policy_curve_email.csv",
+    "contact_list": "C:\\Users\\balla\\Downloads\\clv-uplift-optimizer-starter\\clv-uplift-optimizer\\data\\processed\\policy_contact_list.csv"
+  }
+}

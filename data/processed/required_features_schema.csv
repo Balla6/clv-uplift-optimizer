@@ -1,0 +1,9 @@
+column,type
+recency,numeric
+history_segment,categorical
+history,numeric
+mens,numeric
+womens,numeric
+zip_code,categorical
+newbie,numeric
+channel,categorical

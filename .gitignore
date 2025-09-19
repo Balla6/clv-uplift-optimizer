@@ -1,0 +1,21 @@
+# venv / IDE
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# data artifacts you don't need in git
+data/processed/reports/
+data/processed/contact_pack_*.xlsx
+data/processed/contact_pack_*.md
+
+# optional: comment these out if you WANT them tracked
+# data/processed/figs/
+# data/processed/*.csv

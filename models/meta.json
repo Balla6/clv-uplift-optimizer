@@ -1,0 +1,27 @@
+{
+  "feature_cols": [
+    "recency",
+    "history_segment",
+    "history",
+    "mens",
+    "womens",
+    "zip_code",
+    "newbie",
+    "channel"
+  ],
+  "cat_cols": [
+    "history_segment",
+    "zip_code",
+    "channel"
+  ],
+  "num_cols": [
+    "recency",
+    "history",
+    "mens",
+    "womens",
+    "newbie"
+  ],
+  "target": "spend",
+  "treatment_col": "treatment",
+  "id_fallback": "row_id"
+}
