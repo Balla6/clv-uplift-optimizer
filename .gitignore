@@ -1,21 +1,24 @@
-# venv / IDE
-.venv/
-.vscode/
+# python
 __pycache__/
 *.pyc
+.venv/
+.env
 
-# OS
-.DS_Store
-Thumbs.db
-
-# notebooks checkpoints
+# jupyter
 .ipynb_checkpoints/
 
-# data artifacts you don't need in git
-data/processed/reports/
-data/processed/contact_pack_*.xlsx
-data/processed/contact_pack_*.md
+# data
+data/raw/
+data/**/reports/
+data/**/contact_pack_*.xlsx
+data/**/contact_pack_*.md
 
-# optional: comment these out if you WANT them tracked
-# data/processed/figs/
-# data/processed/*.csv
+# models (keep joblib, ignore huge alternatives)
+models/*.pkl
+!models/*.joblib
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
