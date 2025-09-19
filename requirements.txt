@@ -3,3 +3,7 @@ numpy
 jupyterlab
 lifetimes
 
+
+streamlit
+fastapi
+uvicorn
